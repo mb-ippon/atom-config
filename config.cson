@@ -1,0 +1,8 @@
+"*":
+  editor:
+    fontSize: 13
+    tabType: "soft"
+  "exception-reporting":
+    userId: "d95ca6f1-dd5a-e699-28a3-477b64083f1a"
+  welcome:
+    showOnStartup: false
