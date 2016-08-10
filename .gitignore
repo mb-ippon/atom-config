@@ -6,3 +6,5 @@ split-diff
 .apm
 .node-gyp
 .npm
+.apmrc
+nohup.out
