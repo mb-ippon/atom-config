@@ -30,10 +30,10 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
-'.platform-win32':
+'.platform-win32, .platform-linux':
   'ctrl-shift-o': 'fuzzy-finder:toggle-file-finder'
   'ctrl-g': 'editor:select-line'
-'.platform-win32 atom-text-editor':
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-alt-l': 'grammar-selector:show'
   'ctrl-shift-l': 'editor:auto-indent'
   'ctrl-d': 'editor:delete-line'
