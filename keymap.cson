@@ -33,20 +33,27 @@
 '.platform-win32, .platform-linux':
   'ctrl-shift-o': 'fuzzy-finder:toggle-file-finder'
   'ctrl-g': 'editor:select-line'
+  'ctrl-shift-R': 'unset!'
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-alt-l': 'grammar-selector:show'
   'ctrl-shift-l': 'editor:auto-indent'
   'ctrl-d': 'editor:delete-line'
+  'ctrl-k': 'find-and-replace:find-next'
+  'ctrl-shift-k': 'find-and-replace:find-previous'
 'body':
-  'ctrl-down': 'editor:duplicate-lines'
+  'ctrl-k right': 'unset!'
+  'ctrl-alt ^right': 'pane:split-right-and-copy-active-item'
+  'ctrl-alt ^left': 'pane:split-left-and-copy-active-item'
+  'ctrl-alt ^up': 'pane:split-up-and-copy-active-item'
+  'ctrl-alt ^down': 'pane:split-down-and-copy-active-item'
 'atom-workspace atom-pane':
   'ctrl-alt-=': 'unset!'
 'atom-workspace atom-text-editor:not([mini])':
-  'ctrl-down': 'editor:duplicate-lines'
-'atom-workspace atom-text-editor':
   'ctrl-l': 'go-to-line:toggle'
+  'ctrl-down': 'editor:duplicate-lines'
+  'ctrl-up': 'editor:duplicate-lines'
 'atom-text-editor:not([mini])':
   'ctrl-shift-c': 'comment:toggle'
-'atom-text-editor':
+  'ctrl-shift-r': 'refactor:rename'
   'alt-down': 'editor:move-line-down'
   'alt-up': 'editor:move-line-up'
