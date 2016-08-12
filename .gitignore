@@ -3,6 +3,7 @@ compile-cache
 dev
 storage
 split-diff
+local-history
 .apm
 .node-gyp
 .npm
