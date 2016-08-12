@@ -1,0 +1,10 @@
+[ignore]
+.*node_modules/fbjs.*
+
+[include]
+
+[libs]
+./node_modules/nuclide/pkg/nuclide-external-interfaces/1.0/
+
+[options]
+esproposal.decorators=ignore
