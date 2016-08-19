@@ -46,6 +46,8 @@
   'ctrl-alt ^left': 'pane:split-left-and-copy-active-item'
   'ctrl-alt ^up': 'pane:split-up-and-copy-active-item'
   'ctrl-alt ^down': 'pane:split-down-and-copy-active-item'
+  'ctrl-shift-s': 'unset!'
+  'ctrl-shift-s': 'window:save-all'
 'atom-workspace atom-pane':
   'ctrl-alt-=': 'unset!'
 'atom-workspace atom-text-editor:not([mini])':
