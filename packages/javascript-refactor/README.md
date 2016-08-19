@@ -1,7 +1,7 @@
 # atom-javascript-refactor package
 
 [![Build Status](https://travis-ci.org/jurassix/atom-javascript-refactor.svg?branch=master)](https://travis-ci.org/jurassix/atom-javascript-refactor)
-[![Coverage Status](https://coveralls.io/repos/github/jurassix/atom-javascript-refactor/badge.svg?branch=master)](https://coveralls.io/github/jurassix/atom-javascript-refactor?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/jurassix/atom-javascript-refactor/badge.svg)](https://coveralls.io/github/jurassix/atom-javascript-refactor)
 [![Dependency Status](https://david-dm.org/jurassix/atom-javascript-refactor.svg)](https://david-dm.org/jurassix/atom-javascript-refactor)
 [![devDependency Status](https://david-dm.org/jurassix/atom-javascript-refactor/dev-status.svg)](https://david-dm.org/jurassix/atom-javascript-refactor#info=devDependencies)
 
@@ -9,7 +9,7 @@
 
 _atom-javascript-refactor_ simplifies ES6 Module and CommonJS refactoring, by allowing you to rename or move any file within your project and have all references updated automatically.
 
-_atom-javascript-refactor_ allows you to rename a file and all Modules referencing that file will be updated too the new path. 
+_atom-javascript-refactor_ allows you to rename a file, and all referencing Modules will be updated with new path.
 
 For example, given the following file:
 
@@ -27,7 +27,7 @@ _src/animals.js_ is transformed to
 import cat from './kitten';
 ```
 
-_atom-javascript-refactor_ also allows you to move a file causing all the internal Module references _and_ all Modules that reference this file, to be updated too.
+_atom-javascript-refactor_ also updates all locally referenced Modules inside of the moved file.
 
 For example, given the following files:
 
@@ -65,7 +65,7 @@ _Note: there currently is no support for Drag and Drop._
 
 ### Install
 ```
-apm i atom-javascript-refactor
+apm i javascript-refactor
 ```
 
 ### Develop

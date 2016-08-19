@@ -1,6 +1,18 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "619eb3c5-7286-418f-a3b5-a193c3a01cb6"
+    typescript:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_size: 2
+  docblockr: {}
   editor:
     fontSize: 13
+    preferredLineLength: 100
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
     tabType: "soft"
   "exception-reporting":
     userId: "d95ca6f1-dd5a-e699-28a3-477b64083f1a"
